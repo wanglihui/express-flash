@@ -31,7 +31,11 @@ npm install wlh-express-flash
       res.flash.info("恭喜您登陆成功");
       res.render("loginSuccess");
   }
+```
 
+    2. 前段代码
+    
+```
   login.html
   <%=flash.getErrors()%>
 
