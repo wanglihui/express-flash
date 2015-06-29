@@ -1,9 +1,14 @@
 # express-flash
 ---
 
+```
   实现在express中调用flash，将消息发送到前段页面
   in express.js, use flash to show message to front-page(html)
+```
 
+```
+npm install wlh-express-flash
+```
 ### 使用(Usage)
 ---
 
