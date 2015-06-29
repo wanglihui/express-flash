@@ -1,6 +1,6 @@
 {
   "name": "wlh-express-flash",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "express flash",
   "main": "index.js",
   "scripts": {
