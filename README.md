@@ -24,6 +24,9 @@ npm install wlh-express-flash
   route.js
   exports.login = function(req, res, next) {
       res.flash.error("用户名或密码错误");
+      //res.flash.info("登录成功")
+      //res.flash.label("登录成功", "my_label");
+      //res.flash.getMsgs("my_label")
       res.render("login");
   }
 
